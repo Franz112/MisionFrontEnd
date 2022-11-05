@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1 LaunchX</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Cafeteria</h1>
+
+    <img src="./../Img/Pasteleria Arg (1).png" alt="">
+
+    <h2>¿De que sucursal desea pedir?</h2>
+
+    <div>
+        <select>
+            <option value="Norte">Norte</option>
+            <option value="Sur">Sur</option>
+            <option value="Este">Este</option>
+            <option value="Oeste">Oeste</option>
+        </select>
+    </div>
+
+    <h2>Sabores de pasteles</h2>
+
+    <ul>
+        <li>Chocotorta</li>
+        <li>Dulce de Leche</li>
+        <li>Vainilla</li>
+        <li>Chocolate</li>
+    </ul>
+
+    <h2>Ingrese de que sabores quiere el pastel</h2>
+
+    <Div>
+        <input type="checkbox" id="Chocotorta" value="Chocotorta">
+        <label for="Chocotorta">Chocotorta</label>
+        <br>
+    
+        <input type="checkbox" id="Dulce de Leche" value="Dulce de Leche">
+        <label for="Dulce de Leche">Dulce de Leche</label>
+        <br>
+    
+        <input type="checkbox" id="Vainilla" value="Vainilla">
+        <label for="Vainilla">Vainilla</label>
+        <br>
+    
+        <input type="checkbox" id="Chocolate" value="Chocolate">
+        <label for="Chocolate">Chocolate</label>
+        <br>
+    </Div>
+
+    <h2>Adornos de pasteles y precios</h2>
+
+    <div>
+        <table>
+            <table>
+                <tr>
+                    <th>Adornos</th>
+                    <th>Adornos de futbol</th>
+                    <th>Adornos de pareja</th>
+                    <th>Adornos de fiesta</th>
+                </tr>
+
+                <tr>
+                    <td>Precios</td>
+                    <td>1250</td>
+                    <td>2000</td>
+                    <td>1500</td>
+                </tr>
+        </table>
+    </div>
+
+    <h2>Ingrese que adornos desea que tenga el pastel</h2>
+
+    <Div>
+        <input type="checkbox" id="Adornos de futbol" value="Adornos de futbol">
+        <label for="Adornos de futbol">Adornos de futbol</label>
+        <br>
+    
+        <input type="checkbox" id="Adornos de pareja" value="Adornos de pareja">
+        <label for="Adornos de pareja">Adornos de pareja</label>
+        <br>
+    
+        <input type="checkbox" id="Adornos de fiesta" value="Adornos de fiesta">
+        <label for="Adornos de fiesta">Adornos de fiesta</label>
+        <br>
+    </Div>
+
+    <h2>¿Cuantos pasteles desea?</h2>
+    
+    <input type="number" placeholder="¿Cuantos?">
+
+    <h2>Ingrese sus datos</h2>
+
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="Telefono">Telefono:</label>
+        <input type="text" id="Telefono" name="Telefono"><br><br>
+
+        <label for="Mail">Mail:</label>
+        <input type="text" id="Mail" name="Mail"><br><br>
+
+        <label for="descpas">Descripcion general del pastel:</label>
+        <input type="text" id="descpas" name="descpas"><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+</body>
